@@ -1,0 +1,13 @@
+.input-box{
+    padding: 15px;
+    width: 80%;
+    height: 100px;
+    
+
+}.input-box__enter{
+    background-color: hsl(185, 41%, 84%);
+}
+.input-box__enter input{
+    outline: none;
+    text-decoration: none;
+}

@@ -1,7 +1,7 @@
 import logo from '../images/logo.svg';
 import '../components/Header.css'
 
- function Header(props){
+ function Header(){
     return( 
         <div className="logo">
              <img src={logo}  alt="logo" />
