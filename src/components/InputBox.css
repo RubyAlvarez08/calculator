@@ -2,12 +2,20 @@
     padding: 15px;
     width: 80%;
     height: 100px;
-    
-
-}.input-box__enter{
-    background-color: hsl(185, 41%, 84%);
+    color:hsl(183, 100%, 15%);  
+}
+.input-box__enter{
+    background-color:hsl(180, 24%, 90%);
+    height: 40px;
+    text-align: end;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 .input-box__enter input{
-    outline: none;
-    text-decoration: none;
+   background-color: transparent;
+   border:0;
+   text-align: end;
+   font-size: 24px;
+   font-family: 'Space Mono', monospace;
+
 }

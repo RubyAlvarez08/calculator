@@ -1,6 +1,7 @@
+
 function TipButton(props){
     return(
-        <button type="button">{props.name}</button>
+        <button className="tip-button"type="button">{props.name}</button>
     )
 }
 export default TipButton;

@@ -1,0 +1,22 @@
+.container-select{
+    width: 80%;
+}
+.select-tip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 10vh;
+   
+    
+
+}
+.tip-button{
+    background-color: hsl(183, 100%, 15%);
+    border:0;
+    border-radius: 10px;
+    color: #FFFF;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    
+    
+}
