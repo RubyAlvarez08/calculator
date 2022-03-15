@@ -1,5 +1,6 @@
 .container-select{
     width: 80%;
+    margin-bottom: 20px;
 }
 .select-tip{
     display: grid;

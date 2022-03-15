@@ -1,0 +1,52 @@
+.output-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.output-result{
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.output-text{
+    width: 50%;
+    text-align: start;
+    margin-left: 15px;
+    
+}
+.output-text h2{
+    color: #ffff;
+}
+.output-text span{
+    color: hsl(184, 14%, 56%);
+}
+.output-price{
+   color:hsl(184, 14%, 56%);
+   width: 50%;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+}
+.icon-dollar img{
+    width: 30px;
+    height:30px;
+}
+.reset{
+    width: 80%;
+    height: 50px;
+    background-color: hsl(186, 14%, 43%);
+    border: none;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    color: hsl(189, 41%, 97%);
+    text-transform: uppercase;
+    font-size: 18px;
+    ;
+}

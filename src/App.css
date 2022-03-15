@@ -2,7 +2,6 @@
 
 body{
   background-color: hsl(185, 41%, 84%);
-  font-family: 'Space Mono', monospace;
   font-weight: 700;
 }
 .app{
@@ -31,7 +30,7 @@ body{
 .splitter-input{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .splitter-result{
