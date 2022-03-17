@@ -8,7 +8,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: centergi;
 }
 .splitter-container{
   width: 60%;
@@ -34,5 +34,5 @@ body{
   align-items: center;
 }
 .splitter-result{
-  background-color: hsl(183, 100%, 15%)
+  background-color: hsl(183, 100%, 15%);
 }
