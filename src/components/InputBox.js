@@ -6,10 +6,9 @@ import '../components/InputBox.css';
 function InputBox(props){
     return(
         <div className="input-box">
-          <label for={props.name}> {props.name}</label>
-					<div className="input-box__enter" role="input" tabIndex="0">
-						<input type="number"  id={props.name} placeholder="0" min="0"></input>
-					</div>
+          <label for={props.name}> {props.name}
+						<input type="number" className="input-box__enter" id={props.name} placeholder="0" min="0"/>
+          </label>
         </div>
     )
 }

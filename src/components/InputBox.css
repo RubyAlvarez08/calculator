@@ -1,27 +1,19 @@
 .input-box{
-    padding: 15px;
-    width: 90%;
+    
+    width: 100%;
     height: 100px;
-    color:hsl(183, 100%, 15%);  
+    color:hsl(183, 100%, 15%); 
+    
 }
 .input-box__enter{
     background-color:hsl(180, 24%, 90%);
-    height: 50px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    height: 5vh;
+    border: 0;
+    text-align: end;
+    width: 100%;
     border-radius: 5px;
     margin-top: 5px;
+    font-family: 'Space Mono', monospace; 
+    font-size: 24px;
 }
-.input-box__enter:focus{
-    outline: 0;
-    box-shadow: 0 0 8px 10px #888888;
-}
-.input-box__enter input{
-   background-color: transparent;
-   border:0;
-   text-align: end;
-   font-size: 24px;
-   font-family: 'Space Mono', monospace;
-    outline: 0;
-}
+

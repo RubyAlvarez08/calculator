@@ -3,20 +3,15 @@ import TipButton from "./TipBotton";
 import '../components/SelectTip.css';
 function SelectTip(){
     return(
-        <div className="container-select" tabIndex="0">
-            Select Tip %
-            <div role="combobox" className="select-tip">
-            <TipButton name="5%"></TipButton>
-            <TipButton name="10%"></TipButton>
-            <TipButton name="15%"></TipButton>
-            <TipButton name="25%"></TipButton>
-            <TipButton name="50%"></TipButton>
-            <div className="tip-button custom">
-                <input placeholder="custom"/>
-            </div>
-            </div>
-            
-        </div>
+        <fieldset className="container-select">
+            <legend>Select Tip %</legend> 
+                <TipButton type="button"className="tip-button" value="5%" for="five" id="five"/>
+                <TipButton type="button"className="tip-button" value="10%"for="ten" id="ten"/>
+                <TipButton type="button"className="tip-button" value="15%"for="fifteen" id="fifteen"/>
+                <TipButton type="button"className="tip-button" value="25%"for="twenty-five" id="twenty-five"/>
+                <TipButton type="button"className="tip-button" value="50%"for="fifty" id="fifty"/>
+                <TipButton type="text" className="custom" placeholder="custom"for="custom" id="custom"/>
+        </fieldset>
     )
 }
 

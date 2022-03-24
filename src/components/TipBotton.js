@@ -1,7 +1,12 @@
 
 function TipButton(props){
     return(
-        <button className="tip-button"type="button">{props.name}</button>
+            <input  type={props.type}
+                    className={props.className}
+                    value={props.value}
+                    id={props.id}
+                    placeholder={props.placeholder}
+            /> 
     )
 }
 export default TipButton;

@@ -1,15 +1,11 @@
 .container-select{
-    width: 80%;
+    max-width: 100%;
     margin-bottom: 20px;
-}
-.select-tip{
+    border: 0;
+    color:hsl(183, 100%, 15%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    height: 10vh;
-   
-    
-
 }
 .tip-button{
     background-color: hsl(183, 100%, 15%);
@@ -18,24 +14,25 @@
     color: #FFFF;
     font-family: 'Space Mono', monospace;
     font-size: 24px;
+    height: 50px;
     
     
-}
-.tip-button:focus{
-    background-color: hsl(162, 90%, 35%);
 }
 .custom{
     background-color: hsl(180, 24%, 90%);
-    color: hsl(183, 100%, 15%);  ;
-}
-.custom input{
+    color: hsl(183, 100%, 15%);  
     font-family: 'Space Mono', monospace;
-    background-color: transparent;
     outline: 0;
     border: 0;
+    border-radius: 10px;
     text-align: center;
     width: 100%;
-    color: hsl(183, 100%, 15%);  ;
     font-size: 24px;
-   
+}
+
+.tip-button:focus{
+    background-color: hsl(162, 90%, 35%);
+}
+.custom:focus{
+    background-color: hsl(162, 90%, 35%);
 }
